@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+span,a,label{
+    display: inline-block;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.big{
+    border: 6px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 22px;
+    padding: 16px;
+}
+.box{
+    border: 2px solid blue;
+    padding: 20px;
+    width: 18%;
+
+}
+.box1{
+    color: white;
+    background-color: blue;
+}
+.title{
+    color: white;
+    background-color: blue;
+    padding: 16px;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+}
+.txt{
+    color: blue;
+}
